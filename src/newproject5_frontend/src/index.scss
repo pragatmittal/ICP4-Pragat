@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #fafaf5;
+  color: #3d3d3d;
+}
+
+a {
+  text-decoration: none;
+  color: #5c4b2f;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #a07d4f;
+}
+
+header.header {
+  background: #f5f1ea;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(100, 85, 50, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4a3e28;
+}
+
+.hero {
+  background: linear-gradient(to bottom right, #f9f6ef, #ece7de);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #3f3222;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #6e5c48;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: #9f7e56;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: 600;
+  border: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #7f6241;
+}
+
+.section {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.alt-bg {
+  background-color: #f2eee8;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(140, 100, 40, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card.calm {
+  background-color: #fefcf8;
+  border-left: 4px solid #a07d4f;
+}
+
+.card.calm-dark {
+  background-color: #f5efe3;
+  border-left: 4px solid #b4976b;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 10px;
+  border: 1px solid #c8b89e;
+  background: #fff;
+  font-size: 1rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #999;
+}
+
+button {
+  background: #a07d4f;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #8c6941;
+}
+
+footer {
+  background: #f5f1ea;
+  text-align: center;
+  padding: 25px;
+  font-size: 0.9rem;
+  color: #6e5c48;
+  border-top: 1px solid #ddd3c2;
+}
